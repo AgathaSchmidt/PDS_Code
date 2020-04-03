@@ -1,9 +1,11 @@
 ## Python software packages
 This directory shows an example of a python package (called pds). 
-Once you are in the same directory, you can install it to your machine via
-`pip install -e .`. This way, it's installed in _editable_ mode and your
+Once you are (with your terminal/conda prompt/...) in the same directory as `setup.py`, 
+you can install it to your machine via `pip install -e .`. 
+This way, it's installed in _editable_ mode and your
 changes in the python files will directly be available without reinstallation.
-This does not apply for changes in `setup.py`.
+Kernel restart might be necessary.
+When changes in `setup.py` are made, reinstallation is needed.
 
 The command line interface is created with click (https://click.palletsprojects.com/en/7.x/). 
 There are other packages available for this and we don't force you to work with
